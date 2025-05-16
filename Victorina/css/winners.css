@@ -1,0 +1,37 @@
+#winners {
+    position: relative;
+    width: 100%;
+    max-height: 1200px; /* Максимальная высота блока */
+    overflow-y: auto; /* Включаем вертикальную прокрутку */
+}
+
+.winner-list {
+    position: relative;
+    width: 100%;
+    max-height: 100%; /* Чтобы содержимое оставалось внутри блока */
+    overflow-y: auto; /* Включаем вертикальную прокрутку для списка */
+    padding: 10px;
+    font-size: 1em;
+    white-space: normal; /* Разрешаем перенос строк */
+	text-align: center;
+}
+
+.winner-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.winner-list li {
+    margin-bottom: 10px; /* Отступы между номерами */
+}
+
+.winner-list h3 {
+	color: #222;
+}
+.digit {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    transition: transform 0.3s ease-out;
+}

@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Composer dependencies
+/vendor/
+
+# Environment variables
+.env
+.env.local
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# Cache and temp files
+/tmp/
+.cache/
